@@ -1,4 +1,6 @@
+# Artifacts 
 node_modules/
 web-ext-artifacts/
 
+# Secrets
 *.pem
