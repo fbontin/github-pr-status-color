@@ -1,0 +1,19 @@
+{
+  "description": "Adds color to PRs in github depending on status",
+  "manifest_version": 2,
+  "name": "github-pr-status-color",
+  "version": "1.0",
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "page_action": {
+    "browser_style": true
+  },
+  
+  "permissions": [
+    "*://github.com/*",
+    "activeTab",
+    "tabs"
+  ]
+}
