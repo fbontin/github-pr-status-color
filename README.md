@@ -14,6 +14,11 @@ Code is initially forked from [Mozillas WebExtension examples](https://github.co
 3. Accept and install
 
 ### Add to Chrome
-1. Go to releases and download `github-pr-status-color.crx`
-2. Drag and drop it on Chrome
-3. Accept and install
+Since I don't want to release this to the Chrome Web Store, these instructions are a bit tricky:
+
+1. Clone the repository: `git clone git@github.com:fbontin/github-pr-status-color.git`
+2. Open Chrome and go to extensions
+3. Enable developer mode (in the upper right corner)
+4. Click `Load unpacked` in the upper left corner
+5. Select the folder you just cloned
+6. It should be installed!
